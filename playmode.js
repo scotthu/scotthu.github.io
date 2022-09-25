@@ -2,7 +2,7 @@ let generateBtn = document.querySelector('#generate')
 generateBtn.addEventListener('click',generateAns)
 let showAns = document.querySelector('#playAns')
 showAns.addEventListener('click',()=>{
-    document.querySelector("#ansImg").src = `./pix/${A}.jpg`
+    document.querySelector("#ansImg").src = `./${A}.jpg`
 });
 
 let A = 0
